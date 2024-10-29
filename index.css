@@ -1,9 +1,0 @@
-const ui = SwaggerUIBundle({
-  url: "swagger.json", // or "openapi.yaml" if that's your file
-  dom_id: '#swagger-ui',
-  presets: [
-    SwaggerUIBundle.presets.apis,
-    SwaggerUIStandalonePreset
-  ],
-  layout: "StandaloneLayout"
-});
